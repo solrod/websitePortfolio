@@ -1,7 +1,7 @@
 body {
     margin-left: 0px;
-    height: 100vh;
-    
+    height: 120vh;
+
 }
 
 nav a {
@@ -16,7 +16,8 @@ nav a {
     width: 100%;
     /*display: flex;
     justify-content: flex-end;*/
-    border: solid black 2px;
+    border: solid whitesmoke 2px;
+    background-color: cornsilk;
    z-index: 1;
 }
 
@@ -55,6 +56,7 @@ nav a {
     top: 150px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -77,13 +79,82 @@ main {
     
 }
 
+#project-heading {
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+
 #projects-section {
     position: relative;
-    top: 200px;
+    top: 250px;
+    font-weight: 600;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#project-ul {
+    list-style: square ;
+    margin: 10px 0px 10px 0px;
+}
+
+#project-ul li {
+    margin: 10px 0px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    border: solid blue 1px;
+    background-color: blue;
+    color: white;
+   
+}
+
+#footer-container {
+    font-size: 17px;
+    text-align: center;
+    margin: 15px;
     font-weight: 600;
 }
 
-#project-ul{
-    list-style: square ;
+#ta-design {
+    color: tomato;
 }
 
+@media only screen and (max-width: 600px) {
+    
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items:  center;
+    }
+
+    #navbar-name {
+        display: none;
+    }
+
+    #about-me {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #project-heading {
+        position: relative;
+        top: 200px;
+        text-align: center;
+    }
+
+    #projects-section {
+        top: 200px;
+    }
+  }

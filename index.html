@@ -2,6 +2,7 @@
 <head>
     <title>Portfolio project</title>
     <link rel="stylesheet" href="styling/styling.css">
+    <script type="text/javascript" src="javascript/scripts.js"></script>
 </head>
 <html>
     <header>
@@ -12,38 +13,45 @@
             </ul>
 
             <ul id="navbar-list">
-                <li class="navlink"><a href="index.html">About Me</a></li>
-                <li class="navlink"><a href="">Projects</a></li>
-                <li class="navlink"><a href="">Contact</a></li>
+                <li class="navlink" id="test"><a href="index.html">About Me</a></li>
+                <li class="navlink" ><a href="#projects-section">Projects</a></li>
+                <li class="navlink" ><a href="">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <h1 id="h1-header">About Me</h1>
+    <h1 id="h1-header" >About Me</h1>
 
     <main id="about-me">
 
         <p id="info">Hi, i am <strong>T Andersen</strong>, and i am from Europe.<br>
         I am currently working in the Plastic industri, but would like to change career path,<br>
         and work with web development.<br>
-        Thats why i am doing this Portfolio Project.<br>
+        Thats why i am studying at codecademy.<br>
         <br>
         In my spare time i like doing sport and learning at codecademy,<br>
-        and this is my webpage portfolio project.
+        and this webpage portfolio project, is my first try making a webpage.
         </p>
 
         <img id="selfie" src="./pics/selfie.jpg" alt="Portrait">
        
     </main>
 
-        <section id="projects-section">
-            <ul id="project-ul">
-                <li class="project">This portfolio project</li>
-                <li class="project">Home Server for the Carport</li>
-                <li class="project">Raspberry Pi Robot</li>
-            </ul>
-        </section>
+    <h2 id="project-heading">Projects</h2>
 
-     
+    <section id="projects-section">
+        <ul id="project-ul">
+            <li class="project">CodeCademy portfolio project</li>
+            <li class="project">Home Server for the Carport</li>
+            <li class="project">Raspberry Pi Robot</li>
+        </ul>
+    </section>
+
+    <footer>
+        <div id="footer-container">
+           Made by <span id="ta-design"> TA Design.</span>
+        </div>
+        
+    </footer> 
 
 </html>
