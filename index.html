@@ -15,7 +15,7 @@
             <ul id="navbar-list">
                 <li class="navlink" id="test"><a href="index.html">About Me</a></li>
                 <li class="navlink" ><a href="#projects-section">Projects</a></li>
-                <li class="navlink" ><a href="">Contact</a></li>
+                <li class="navlink" ><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -30,20 +30,29 @@
         Thats why i am studying at codecademy.<br>
         <br>
         In my spare time i like doing sport and learning at codecademy,<br>
-        and this webpage portfolio project, is my first try making a webpage.
+        and this webpage portfolio project, is my first try making a webpage.<br>
+        I code in following languages: <br><span id="languages">Python, HTML, CSS & Javascript.</span><br>
         </p>
-
+        
         <img id="selfie" src="./pics/selfie.jpg" alt="Portrait">
-       
+
+        </ul>
     </main>
 
     <h2 id="project-heading">Projects</h2>
 
     <section id="projects-section">
         <ul id="project-ul">
-            <li class="project">CodeCademy portfolio project</li>
-            <li class="project">Home Server for the Carport</li>
-            <li class="project">Raspberry Pi Robot</li>
+            <li class="project" onclick="fortfolioProject()"><a href="#">CodeCademy portfolio project</a></li>
+            <div id="codePortfolio" class="popupDescription">
+
+            </div>
+
+            <li class="project" id="piRobot" onclick="piRobotProject()"><a href="#">Raspberry Pi Robot</a></li>
+            <div class="popupDescription" id="piRobotPicContainer">
+                <img id="rasperryRobotPic" src="./pics/piRobot.JPG" alt="Homemade Raspberry Pi Robot">
+                <p id="piRobotText"></p>
+            </div>
         </ul>
     </section>
 

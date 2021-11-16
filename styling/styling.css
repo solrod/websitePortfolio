@@ -12,6 +12,7 @@ nav a {
 }
 
 #navbar {
+    top: 0px;
     position: fixed;
     width: 100%;
     /*display: flex;
@@ -68,6 +69,11 @@ main {
     top: 150px;
 }
 
+#languages {
+    color: darkcyan;
+    font-weight: 600;
+}
+
 #selfie {
     height: 200px;
     width: 200px;
@@ -91,8 +97,15 @@ main {
     font-weight: 600;
     font-size: 19px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
+}
+
+.project a {
+    text-decoration: none;
+}
+
+.popupDescription {
+    font-weight: 400;
 }
 
 #project-ul {
@@ -102,6 +115,14 @@ main {
 
 #project-ul li {
     margin: 10px 0px;
+}
+
+#piRobotPicContainer {
+    margin-bottom: 100px;
+}
+
+#rasperryRobotPic {
+    display: none;
 }
 
 footer {
@@ -124,6 +145,22 @@ footer {
 
 #ta-design {
     color: tomato;
+}
+
+
+/* Contact page */
+#contact-body {
+    
+}
+
+#contact {
+    position: relative;
+    top: 150px;
+    width: 80%;
+    border: darkcyan solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 @media only screen and (max-width: 600px) {
