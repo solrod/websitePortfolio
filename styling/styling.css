@@ -8,17 +8,19 @@ nav a {
     text-decoration: none;
     font-size: 22px;
     font-weight: 600;
-    color: blueviolet;
+    color: #04AA6D;
+}
+
+nav a:hover {
+    color: black;
 }
 
 #navbar {
     top: 0px;
     position: fixed;
     width: 100%;
-    /*display: flex;
-    justify-content: flex-end;*/
-    border: solid whitesmoke 2px;
-    background-color: cornsilk;
+    border: solid white 2px;
+    background-color: white;
    z-index: 1;
 }
 
@@ -82,7 +84,6 @@ main {
 
 #info {
     font-size: 18px;
-    
 }
 
 #project-heading {
@@ -125,6 +126,31 @@ main {
     display: none;
 }
 
+/* skills section */
+
+#skills-section {
+    position: relative;
+    top: 170px;
+    width: 100%;
+    border: white 1px solid;
+}
+
+#skills-header {
+    text-align: center;
+}
+
+#skill-icons {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+.skill-icon {
+    margin: 10px;
+}
+
 footer {
     position: fixed;
     bottom: 0px;
@@ -150,17 +176,32 @@ footer {
 
 /* Contact page */
 #contact-body {
-    
+    height: 100vh;
+}
+
+#contact-container {
+    margin-left: 20px;
+}
+
+#contact-header {
+    font-family: Arial;
+}
+
+#contact-text {
+    font-size: 21px;
 }
 
 #contact {
     position: relative;
     top: 150px;
     width: 80%;
-    border: darkcyan solid 1px;
+    border: darkcyan 1px;
     margin-left: auto;
     margin-right: auto;
+}
 
+.contact-icons {
+    margin: 5px
 }
 
 @media only screen and (max-width: 600px) {
